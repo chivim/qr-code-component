@@ -1,0 +1,55 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* MY CODE */
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  width: 93%;
+  border-radius: 4%;
+}
+
+h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%)
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  font-size: 16px;
+}
+
+.qrCode {
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  width: 330px;
+  height: 500px;
+  padding: 13px 5px;
+  margin: auto;
+  position: absolute;
+  right: 39%;
+  top: 15%;
+}
+
+.div-txt {
+padding: 0px 20px 5px;
+}
+
+@media (max-width:900px) {
+
+.qrCode {
+ position: initial;
+}
+}
